@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "compilar": "./node_modules/.bin/babel src --out-file=public/assets/js/script.js",
+    "compilar:watch": "./node_modules/.bin/babel src --out-file=public/assets/js/script.js --watch"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  }
+}

@@ -1,0 +1,12 @@
+version: "3"
+services:
+  app:
+    container_name: app_lista_animales
+    build: .
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html/
+    ports:
+      - 8001:80
