@@ -1,4 +1,4 @@
-# **Desafio Clases ES6**
+# **Desafio Lista Animales**
 Desafio 10, Modulo 03 Introduccion Javascript
 
 ## **Capitulos**
