@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "compilar": "./node_modules/.bin/babel src --out-file=public/assets/js/script.js",
-    "compilar:watch": "./node_modules/.bin/babel src --out-file=public/assets/js/script.js --watch"
+    "compilar": "./node_modules/.bin/babel src --out-file=assets/js/script.js",
+    "compilar:watch": "./node_modules/.bin/babel src --out-file=assets/js/script.js --watch"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
